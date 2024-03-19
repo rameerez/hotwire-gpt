@@ -18,3 +18,11 @@ Make sure to install `concat-md` first:
 ```
 npm install -g concat-md
 ```
+
+## Adding HTML docs as Markdown
+
+Another trick I used was to literally just copy all the contents of all the [RubyDoc pages](https://rubydoc.info/github/hotwired/turbo-rails/main) for the [`turbo-rails` gem](https://github.com/hotwired/turbo-rails) and include them as Markdown files.
+
+The reason I did this is beacause the Hotwire docs are framework-agnostic, and I'm particularly interested in the specific Rails helpers, which are only documented in the Ruby gems for Hotwire.
+
+To convert all the RubyDoc pages into Markdown files I used [clipboard2markdown](https://euangoddard.github.io/clipboard2markdown/) and manually copied and pasted the contents of the website to get the Markdown.
